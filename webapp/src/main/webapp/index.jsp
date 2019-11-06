@@ -1,2 +1,2 @@
 <h1> Hello, Welcome to DevOps training "deploy automatic"  !!! </h1>
-push automatic test12
+Deploy automatic with jenkins & Ansible
