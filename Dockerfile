@@ -1,5 +1,5 @@
 # Pull base image 
-From issaouib/tomcat-demo 
+From issaouib/tomcat 
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
