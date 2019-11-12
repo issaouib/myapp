@@ -1,5 +1,5 @@
 # Pull base image 
-From issaouib/tomcat:8-jre8
+From issaouib/tomcat-demo
 
 # Maintainer 
 MAINTAINER "issaouiios2015@gmail.com" 
