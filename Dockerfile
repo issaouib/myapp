@@ -1,4 +1,4 @@
-# Pull base image 
+# Pull base image from
 From issaouib/tomcat-demo
 
 # Maintainer 
