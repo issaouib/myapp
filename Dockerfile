@@ -1,6 +1,6 @@
 # Pull base image from
-From issaouib/tomcat-demo
+From tomcat:8.0
 
 # Maintainer 
-MAINTAINER "issaouiios2015@gmail.com" 
+#MAINTAINER "issaouiios2015@gmail.com" 
 COPY ./webapp.war /usr/local/tomcat/webapps
