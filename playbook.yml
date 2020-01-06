@@ -1,0 +1,25 @@
+---
+- name: playbook copy
+  hosts: docker_server
+  become: yes
+  
+  tasks:
+  - name: copy webapp.war
+    copy:
+      src: /var/lib/jenkins/workspace/ansible-docker/webapp/target/webapp.war
+      dest: /opt/docker
+  
+  tasks:
+  - name: copy Dockerfile
+    copy:
+      src: /var/lib/jenkins/workspace/ansible-docker/Dockerfile
+      dest: /opt/docker
+
+  tasks:
+  - name: stop and remove container/images
+    shell: docker rm -f myapp
+    shell: docker rmi tomcat
+  - name: build + run container
+    shell: cd /opt/docker
+    shell: docker build -t tomcat .
+    shell: docker run -itd --name myapp -p 8080:8080 tomcat
