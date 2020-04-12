@@ -1,1 +1,1 @@
-<h1> Hello khalil , Welcome to DevOps training !!! pipeline jenkins ansible docker </h1>
+<h1> Hello bilel , Welcome to DevOps training !!! pipeline git gitlab </h1>
